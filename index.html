@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141618">
+  <meta name="description" content="Himesh Kumar is a B.Tech ECE student at ZHCET, AMU, focused on Java, Spring Boot and backend engineering.">
+  <meta property="og:title" content="Himesh Kumar — Java Backend Engineer">
+  <meta property="og:description" content="Building reliable backend systems with Java and Spring Boot.">
+  <meta property="og:type" content="website">
+  <title>Himesh Kumar — Java Backend Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Himesh Kumar home">Himesh Kumar<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="top" aria-labelledby="hero-title">
+      <p class="eyebrow"><span class="status-dot"></span> JAVA BACKEND DEVELOPER <span class="eyebrow-separator">·</span> INDIA</p>
+      <p class="hero-name">&nbsp;Himesh Kumar<span>.</span></p>
+      <h1 id="hero-title">Building reliable<br>backend systems<span class="accent">.</span></h1>
+      <p class="hero-copy">I'm Himesh, a B.Tech ECE student at ZHCET, AMU, focused on backend development with Java and Spring Boot. I enjoy building secure APIs, designing database-driven applications, and working on real-time systems.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#projects">View projects <span aria-hidden="true">↓</span></a>
+        <a class="text-link" href="https://github.com/himeshxp" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="https://linkedin.com/in/himesh43" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <span class="text-link unavailable" title="Resume link not provided">Resume <span aria-hidden="true">↗</span></span>
+      </div>
+      <div class="hero-meta"><span>BASED IN ALIGARH, INDIA</span><span>ECE · ZHCET, AMU</span></div>
+    </section>
+
+    <section class="section container" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><span class="section-index">01</span><h2 id="about-title">A little about me.</h2></div>
+      <div class="about-grid">
+        <div class="prose">
+          <p>I'm an Electronics and Communication Engineering undergraduate who found his interest in software engineering, particularly backend development.</p>
+          <p>My primary focus is Java and Spring Boot. I enjoy understanding how applications work behind the scenes, from authentication and API design to database relationships, transaction management and real-time communication.</p>
+          <p>Outside backend development, I regularly practice Data Structures and Algorithms and work on improving my problem-solving skills.</p>
+        </div>
+        <aside class="education" aria-label="Education">
+          <p class="mono-label">EDUCATION</p>
+          <h3>B.Tech — Electronics and<br>Communication Engineering</h3>
+          <p class="muted">ZHCET, Aligarh Muslim University</p>
+          <div class="education-meta"><span>2024 — 2028</span><span>CPI <b>8.2</b></span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section container" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading"><span class="section-index">02</span><h2 id="skills-title">Technical skills.</h2></div>
+      <div class="skill-list">
+        <div class="skill-row"><h3>Languages</h3><p>Java, SQL</p></div>
+        <div class="skill-row"><h3>Backend</h3><p>Spring Boot, Spring Security, Spring Data JPA, Hibernate, REST APIs, JWT Authentication, WebSocket, STOMP</p></div>
+        <div class="skill-row"><h3>Databases</h3><p>PostgreSQL, MySQL</p></div>
+        <div class="skill-row"><h3>Testing</h3><p>JUnit 5, Mockito, Postman</p></div>
+        <div class="skill-row"><h3>Tools &amp; DevOps</h3><p>Git, GitHub, Docker, IntelliJ IDEA, VS Code</p></div>
+        <div class="skill-row"><h3>Core concepts</h3><p>OOP, Data Structures and Algorithms, DBMS, Operating Systems, Computer Networks</p></div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><span class="section-index">03</span><h2 id="projects-title">Selected projects.</h2></div>
+      <article class="project">
+        <div class="project-top"><span class="project-number">PROJECT 01</span><span class="project-status"><i></i> BACKEND APPLICATION</span></div>
+        <div class="project-main">
+          <div class="project-summary"><h3>CampusConnect</h3><p>A student portal for complaint management and event handling, featuring secure REST APIs and role-based access for students and administrators.</p><div class="project-links"><span class="placeholder-link">GitHub repository link pending</span><span class="placeholder-link">Live demo link pending</span></div></div>
+          <div class="project-detail"><h4>Engineering decisions</h4><ul><li>Implemented stateless JWT authentication using HTTP-only cookies.</li><li>Designed role-based authorization for students and administrators.</li><li>Built DTO-based request validation and centralized exception handling.</li><li>Used a layered architecture with controllers, services, repositories and DTOs.</li><li>Designed relational schemas and entity mappings using Spring Data JPA.</li><li>Wrote service-layer unit tests using JUnit 5 and Mockito.</li><li>Containerized the application with Docker; deployed on Render with Neon PostgreSQL.</li></ul></div>
+        </div>
+        <div class="project-stack"><span>Java</span><span>Spring Boot</span><span>Spring Security</span><span>JWT</span><span>Hibernate</span><span>PostgreSQL</span><span>Docker</span><span>JUnit</span><span>Mockito</span></div>
+      </article>
+      <article class="project">
+        <div class="project-top"><span class="project-number">PROJECT 02</span><span class="project-status"><i></i> REAL-TIME SYSTEM</span></div>
+        <div class="project-main">
+          <div class="project-summary"><h3>Aura</h3><p>A real-time chat application built using Spring Boot WebSocket and STOMP, supporting room-based messaging and live user presence.</p><div class="project-links"><span class="placeholder-link">GitHub repository link pending</span><span class="placeholder-link">Live demo link pending</span></div></div>
+          <div class="project-detail"><h4>Engineering decisions</h4><ul><li>Implemented bidirectional messaging using WebSocket and STOMP.</li><li>Designed message routing through <code>/app</code> and <code>/topic</code> destinations.</li><li>Implemented room-based conversations with persistent chat history.</li><li>Developed live user presence and typing indicators.</li><li>Separated transient presence events from persisted chat messages.</li></ul></div>
+        </div>
+        <div class="project-stack"><span>Java</span><span>Spring Boot</span><span>Spring WebSocket</span><span>STOMP</span><span>Spring Data JPA</span><span>PostgreSQL</span></div>
+      </article>
+    </section>
+
+    <section class="section container" id="problem-solving" aria-labelledby="problem-title">
+      <div class="section-heading"><span class="section-index">04</span><h2 id="problem-title">Problem solving.</h2></div>
+      <div class="problem-row"><div class="problem-stats"><div><strong>350<span>+</span></strong><span class="mono-label">PROBLEMS SOLVED</span></div><div><strong>1500<span>+</span></strong><span class="mono-label">CONTEST RATING</span></div></div><div class="problem-copy"><p>Regularly practicing Data Structures and Algorithms, focusing on problem-solving patterns, algorithmic thinking and writing efficient solutions.</p><a class="text-link" href="https://leetcode.com/u/himeshkxp" target="_blank" rel="noopener noreferrer">LeetCode profile <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+
+    <section class="section container" id="achievements" aria-labelledby="achievements-title">
+      <div class="section-heading"><span class="section-index">05</span><h2 id="achievements-title">Achievements &amp; certifications.</h2></div>
+      <ul class="achievement-list"><li><span>01</span><p>1500+ LeetCode contest rating</p></li><li><span>02</span><p>350+ problems solved</p></li><li><span>03</span><p>Certificate of Excellence — Spring Boot Development Course, Scaler</p></li></ul>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner"><p class="eyebrow">LET'S CONNECT</p><h2 id="contact-title">Have something<br>interesting in mind<span class="accent">?</span></h2><p class="contact-copy">I'm open to discussing backend engineering opportunities, projects and collaborations.</p><div class="contact-links"><a href="mailto:himeshkumar72893@gmail.com">himeshkumar72893@gmail.com <span aria-hidden="true">↗</span></a><a href="https://linkedin.com/in/himesh43" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/himeshxp" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="footer-brand" href="#top">Himesh Kumar <span>·</span> Built with care.</a><div><a href="https://github.com/himeshxp" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://linkedin.com/in/himesh43" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div><span class="footer-note">JAVA · SPRING · BACKEND</span></footer>
+</body>
+</html>
